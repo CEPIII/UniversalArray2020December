@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FirstTemp/1.0.0": {
+        "runtime": {
+          "FirstTemp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FirstTemp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

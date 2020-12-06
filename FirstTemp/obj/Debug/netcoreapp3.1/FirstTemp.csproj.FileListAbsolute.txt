@@ -1,0 +1,13 @@
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\bin\Debug\netcoreapp3.1\FirstTemp.exe
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\bin\Debug\netcoreapp3.1\FirstTemp.deps.json
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\bin\Debug\netcoreapp3.1\FirstTemp.runtimeconfig.json
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\bin\Debug\netcoreapp3.1\FirstTemp.runtimeconfig.dev.json
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\bin\Debug\netcoreapp3.1\FirstTemp.dll
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\bin\Debug\netcoreapp3.1\FirstTemp.pdb
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\obj\Debug\netcoreapp3.1\FirstTemp.csprojAssemblyReference.cache
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\obj\Debug\netcoreapp3.1\FirstTemp.AssemblyInfoInputs.cache
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\obj\Debug\netcoreapp3.1\FirstTemp.AssemblyInfo.cs
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\obj\Debug\netcoreapp3.1\FirstTemp.csproj.CoreCompileInputs.cache
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\obj\Debug\netcoreapp3.1\FirstTemp.dll
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\obj\Debug\netcoreapp3.1\FirstTemp.pdb
+C:\[Git]\CEPIII\Temp\FirstProjekt\FirstTemp\obj\Debug\netcoreapp3.1\FirstTemp.genruntimeconfig.cache
