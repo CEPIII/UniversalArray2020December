@@ -6,43 +6,43 @@ namespace FirstTemp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            /// Подсчитать сумму чисел в двухмерном массиве
-            
-            int[,] arr = new int[,] { { 11, 22, 31 }, { 4, 53, 6 }, { 7, 81, 90 } };
-
-            /*
-            int sum = 0;
-            for (int i = 0; i < arr.GetLength(0); i++)
+            int min = 20;
+            int max = 0;
+            Console.WriteLine("Заполнение массива");
+            Console.Write("n: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Console.Write("m: ");
+            int m = Convert.ToInt32(Console.ReadLine());
+            Random r = new Random();
+            int[,] mas = new int[n, m];
+            Console.Clear();
+            Console.WriteLine("Массив:");
+            for (int i = 0; i < mas.GetLength(0); i++)
             {
-                for (int j = 0; j < arr.GetLength(1); j++)
+                for (int j = 0; j < mas.GetLength(1); j++)
                 {
-                    sum += arr[i, j];
+                    mas[i, j] = r.Next(0, 21);
+                    Console.Write(mas[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            for (int i = 0; i < mas.GetLength(0); i++)
+            {
+                for (int j = 0; j < mas.GetLength(1); j++)
+                {
+                    if (mas[i, j] > max)
+                    {
+                        max = mas[i, j];
+                    }
+                    if (mas[i, j] < min)
+                    {
+                        min = mas[i, j];
+                    }
                 }
             }
-            Console.WriteLine(sum + "\n");      */
+            Console.WriteLine("Минимальный элемент: " + min);
+            Console.WriteLine("Максимальный элемент: " + max);
 
-            
-            int lengthArr = arr.Length;
-            Console.WriteLine(lengthArr);
-
-            int summ = 0;
-            foreach (var x in arr)
-            {
-                summ += x;
-            }
-            Console.WriteLine($"Сумма двумерного массива составляет ; \n summ = {summ}");
-            
-            /*
-            Console.WriteLine("====Заполнить двумерный массив случайными числами====");
-            int[,] arrTwo10 = new int[10, 10];
-            Random rnd = new Random();
-            for (int i = 0; i < arrTwo10.Length; i++)
-            {
-
-            }
-            */
 
 
         }   
