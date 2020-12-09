@@ -36,16 +36,22 @@ namespace FirstTemp
             Console.WriteLine($"Количество элементов в многомерном масси ве составляет :\n\tlengtArr = {lengtArr} элементов");
             //Создаю одноомерн и копирую в него
             int[] oneArr = new int[lengtArr];
+            int numArrOne = 0;
             for (int i = 0; i < arr.GetLength(0); i++)
             {
-                int numArrOne = 0;
-                for (int j = 0; i < arr.GetLength(1); i++)
+                for (int j = 0; j < arr.GetLength(1); j++)
                 {
                     oneArr[numArrOne] = arr[i, j];
                     numArrOne++;
+
                 }
             }
-
+            
+            //Выведу на экран
+            foreach (var item in oneArr) 
+            {
+                Console.Write($"{item}, "); 
+            }
             
         }   
     }
