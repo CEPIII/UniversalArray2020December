@@ -52,7 +52,7 @@ namespace FirstTemp
             {
                 Console.Write($"{item}, "); 
             }
-            
+            Console.Write("\b\b  \n");  //Затер ненужную запятую в конце
         }   
     }
 }
