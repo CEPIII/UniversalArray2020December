@@ -29,6 +29,7 @@ namespace FirstTemp
                 }
                 Console.Write("}\n");
             }
+            
         }   
     }
 }
