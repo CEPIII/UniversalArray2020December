@@ -29,6 +29,23 @@ namespace FirstTemp
                 }
                 Console.Write("}\n");
             }
+            //Скопировать двумерный массив в одномерный
+            //Узнаю количество элементов двумерного для создания этой длины одномерного
+
+            int lengtArr = arr.Length;
+            Console.WriteLine($"Количество элементов в многомерном масси ве составляет :\n\tlengtArr = {lengtArr} элементов");
+            //Создаю одноомерн и копирую в него
+            int[] oneArr = new int[lengtArr];
+            for (int i = 0; i < arr.GetLength(0); i++)
+            {
+                int numArrOne = 0;
+                for (int j = 0; i < arr.GetLength(1); i++)
+                {
+                    oneArr[numArrOne] = arr[i, j];
+                    numArrOne++;
+                }
+            }
+
             
         }   
     }
