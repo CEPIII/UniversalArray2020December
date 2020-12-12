@@ -6,12 +6,17 @@ namespace FirstTemp
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите положительный диапазон значений случайных чисел, которые заполнят массив от 0 \n diapazon = ");
+            
+            Console.Write("Введите положительный диапазон значений случайных чисел, которые заполнят массив от 0 \n \bдо: введите заначение \t\"diapazon\" = ");
             int diapazon = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("");
+            
             Console.Write("Определите первый размер двумерного массива : \n\t[x, ] = ");
             int x = Convert.ToInt32(Console.ReadLine());
             Console.Write("Определите второй размер двумерного массива : \n\t[, y] = ");
             int y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("");
+
 
             int[,] arr = new int[x, y];
             //Заполнить массив рандомными значениями по заданному ранее диапазону
@@ -29,11 +34,15 @@ namespace FirstTemp
                 }
                 Console.Write("}\n");
             }
+            Console.WriteLine("");
+
             //Скопировать двумерный массив в одномерный
             //Узнаю количество элементов двумерного для создания этой длины одномерного
 
             int lengtArr = arr.Length;
-            Console.WriteLine($"Количество элементов в многомерном масси ве составляет :\n\tlengtArr = {lengtArr} элементов");
+            Console.WriteLine($"Количество элементов в многомерном масси ве составляет :\n\tlengtArr = {lengtArr} элементов:");
+            Console.WriteLine("");
+
             //Создаю одноомерн и копирую в него
             int[] oneArr = new int[lengtArr];
             int numArrOne = 0;
@@ -52,7 +61,8 @@ namespace FirstTemp
             {
                 Console.Write($"{item}, "); 
             }
-            Console.Write("\b\b  \n");  //Затер ненужную запятую в конце
-        }   
+            Console.WriteLine("\b\b  \n");  //Затер ненужную запятую в конце
+            //---------------------------------------------------------------------------------------------
+        }
     }
 }
